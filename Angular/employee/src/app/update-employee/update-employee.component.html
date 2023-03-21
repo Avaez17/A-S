@@ -1,0 +1,22 @@
+<div class="col-md-8 offset-md-3">
+    <h3 class="text-center">Update Employee</h3>
+    <form action="" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="">First Name: </label>
+            <input type="text" class="form-control" id="firstname" name="firstname" [(ngModel)] = "employee.firstname" placeholder="First Name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="">Last Name: </label>
+            <input type="text" class="form-control" id="lastname" name="lastname" [(ngModel)] = "employee.lastname" placeholder="Last Name">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="">EmailID: </label>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)] = "employee.email" placeholder="EmailID">
+        </div>
+        <br><br>
+        <button class="btn btn-success" type="submit">Submit</button>
+    
+    </form>
+    </div>
